@@ -8,8 +8,8 @@ Chạy file SiglusTools.exe
 
 ## 1.1 Tìm key 
 		
-Để tìm được Key của game, mở game lên và sau đó chọn **Find Key**
-	
+Để tìm được Key của game, mở game lên để đó, sau đó chọn **Find Key** trong Tool
+
 	
 ## 1.2 Unpack scene
 	
