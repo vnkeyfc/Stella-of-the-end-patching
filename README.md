@@ -34,7 +34,7 @@ File "Scene.pck2" chính là thành phẩm cuối cùng, đưa vào thư mục g
 
 
 
-# 2. Làm việc với Gameexe.dat
+# 2. Làm việc với Gameexe.dat bằng Python siglus tool
 	
 ## 2.1 Sử dụng Decrypt gameexe
 	
@@ -47,7 +47,7 @@ BỎ tích **Double encryption**, file "gameexe.dat2" là đầu ra, đưa vào 
 
 
 
-# 3. Làm việc với các file .g00
+# 3. Làm việc với các file .g00 bằng vaconv
 
 ## 3.1 Sử dụng vaconv-cpp.exe
 		
