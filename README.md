@@ -1,4 +1,10 @@
+# 0. !!!
+Trước khi thực hiện bất cứ thứ gì, hãy tải Folder "0" về, thay thế các file
+- "Siglusengine.exe" bằng "SiglusEngineEN.exe"
+- "Gameexe.dat" bằng "GameexeEN.dat"
+- "Scene.pck" bằng "SceneEN.pck" 
 # 1. Làm việc với file scene bằng Python siglus tool
+Chạy file SiglusTools.exe
 
 ## 1.1 Tìm key 
 		
@@ -7,7 +13,7 @@
 	
 ## 1.2 Unpack scene
 	
-Trỏ **Scene file:** đến file "Scene.pck". Đợi một lúc bạn sẽ có một thư mục "Scene" chứa các file .ss
+Trỏ **Scene file:** đến file "SceneEN.pck". Đợi một lúc bạn sẽ có một thư mục "Scene" chứa các file .ss
 		
 		
 ## 1.3 Dump ss
@@ -30,7 +36,7 @@ Tích "Have excel text"
 	
 BỎ tích **Double encryption**.
 	
-File "Scene.pck2" chính là thành phẩm cuối cùng, đưa vào thư mục game và đổi tên file scene thành "Scene.pck".
+File "Scene.pck2" chính là thành phẩm cuối cùng, đưa vào thư mục game và đổi tên file scene thành "SceneEN.pck".
 
 
 
@@ -38,12 +44,12 @@ File "Scene.pck2" chính là thành phẩm cuối cùng, đưa vào thư mục g
 	
 ## 2.1 Sử dụng Decrypt gameexe
 	
-Trỏ Gameexe: tới chính file "gameexe.dat", đầu ra sẽ là file "gameexe.ini".
+Trỏ Gameexe: tới chính file "gameexeEN.dat", đầu ra sẽ là file "gameexe.ini".
 	
 	
 ## 2.2 Sử dụng Encrypt gameexe
 	
-BỎ tích **Double encryption**, file "gameexe.dat2" là đầu ra, đưa vào thư mục game và đổi tên thành "gamexe.dat".
+BỎ tích **Double encryption**, file "gameexe.dat2" là đầu ra, đưa vào thư mục game và đổi tên thành "gamexeEN.dat".
 
 
 
