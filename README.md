@@ -1,4 +1,4 @@
-1. Làm việc với file scene bằng Python siglus tool\n
+1. Làm việc với file scene bằng Python siglus tool
 	1.1 Tìm key
 		Để tìm được Key của game, mở game lên và sau đó chọn **Find Key**
 	1.2 Unpack scene
