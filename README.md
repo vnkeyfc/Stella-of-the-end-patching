@@ -73,7 +73,7 @@ Các file đầu ra chính là các file .g00.
 
 Sử dụng Omv2Avi.exe, mở cmd gõ lệnh `omv2avi.exe xyz` với xyz là file .omv (đã bao gồm đuôi file). Sau đó bạn sẽ nhận được 1 video .avi chưa nén tức dung lượng sẽ tương đối lớn, hãy nén lại bằng bất cứ phần mềm gì bạn kiếm được (ví dụ như virtualdub)
 
-##4.2 chuyển đổi .avi -> .ogv
+## 4.2 chuyển đổi .avi -> .ogv
 
 Sử dụng ffmpeg, Mở cmd gõ `ffmpeg -i xyz -codec:v libtheora -qscale:v 10 -pix_fmt yuv444p abc.ogv` với xyz là tên của video cần chuyển đổi (đã bao gồm đuôi file) và abc là tên của video ogv. 
 
