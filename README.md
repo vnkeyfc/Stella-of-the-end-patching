@@ -67,7 +67,7 @@ Các file đầu ra chính là các file .g00.
 
 
 
-# 4. Làm việc với OMV (Chưa hoàn thiện :skull:)
+# 4. Làm việc với OMV 
 
 ## 4.1 chuyển đổi .omv -> .avi
 
@@ -75,7 +75,7 @@ Sử dụng Omv2Avi.exe, mở cmd gõ lệnh `omv2avi.exe xyz` với xyz là fil
 
 ## 4.2 chuyển đổi .avi -> .ogv
 
-Sử dụng ffmpeg, Mở cmd gõ `ffmpeg -i xyz -codec:v libtheora -qscale:v 10 -pix_fmt yuv444p abc.ogv` với xyz là tên của video cần chuyển đổi (đã bao gồm đuôi file) và abc là tên của video ogv. 
+Sử dụng ffmpeg, Mở cmd gõ `ffmpeg -i xyz -dst_range 1 -codec:v libtheora -qscale:v 10 -pix_fmt yuv444p abc.ogv` với xyz là tên của video cần chuyển đổi (đã bao gồm đuôi file) và abc là tên của video ogv. 
 
 ## 4.3 Chuyển đổi .ogv -> .omv
 
